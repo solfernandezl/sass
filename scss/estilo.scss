@@ -1,0 +1,37 @@
+$bg_verde: #165f11;
+$bg_claro: #f8f1ca;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bg_claro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    nav{
+        .menu{
+            background-color: $bg_verde;
+            list-style-type: none;
+            padding: 0;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        li{
+            padding: 10px;
+            margin: 10px;
+            a{
+                color: $bg_claro;
+                text-decoration: none;
+                padding: 20px;
+                &:hover{
+                    
+                }
+            }
+        }
+    }
+}
